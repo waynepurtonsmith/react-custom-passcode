@@ -1,0 +1,247 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Passcode > rendering > render with the custom fields and matches the snapshot 1`] = `
+<div>
+  <input
+    aria-label="Passcode field 1"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="first-id"
+    maxlength="1"
+    name="first-name"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+  <input
+    aria-label="Passcode field 2"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="second-id"
+    maxlength="1"
+    name="second-name"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Passcode > rendering > render with the defaults and matches the snapshot 1`] = `
+<div>
+  <input
+    aria-label="Passcode field 1"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-0"
+    maxlength="1"
+    name="code[0]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+  <input
+    aria-label="Passcode field 2"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-1"
+    maxlength="1"
+    name="code[1]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+  <input
+    aria-label="Passcode field 3"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-2"
+    maxlength="1"
+    name="code[2]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+  <input
+    aria-label="Passcode field 4"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-3"
+    maxlength="1"
+    name="code[3]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Passcode > rendering > render with the other options and matches the snapshot 1`] = `
+<div>
+  <input
+    aria-label="Passcode field 1"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-0"
+    maxlength="1"
+    name="code[0]"
+    pattern="[a-zA-Z0-9]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value="1"
+  />
+  <input
+    aria-label="Passcode field 2"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-1"
+    maxlength="1"
+    name="code[1]"
+    pattern="[a-zA-Z0-9]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value="2"
+  />
+  <input
+    aria-label="Passcode field 3"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-2"
+    maxlength="1"
+    name="code[2]"
+    pattern="[a-zA-Z0-9]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value="3"
+  />
+  <input
+    aria-label="Passcode field 4"
+    autocapitalize="off"
+    autocomplete="one-time-code"
+    autocorrect="off"
+    id="code-3"
+    maxlength="1"
+    name="code[3]"
+    pattern="[a-zA-Z0-9]"
+    required=""
+    spellcheck="false"
+    type="text"
+    value="4"
+  />
+</div>
+`;
+
+exports[`Passcode > rendering > renders with the custom renderer and matches the snapshot 1`] = `
+<div>
+  <div
+    class="passcode-input-wrapper"
+  >
+    <div
+      class="input-inner-wrapper"
+    >
+      <input
+        aria-label="Passcode field 1"
+        autocapitalize="off"
+        autocomplete="one-time-code"
+        autocorrect="off"
+        class="passcode-field"
+        data-testid="custom-field"
+        id="input-passcode-0"
+        maxlength="1"
+        name="secret-passcode-0"
+        required=""
+        spellcheck="false"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="passcode-input-wrapper"
+  >
+    <div
+      class="input-inner-wrapper"
+    >
+      <input
+        aria-label="Passcode field 2"
+        autocapitalize="off"
+        autocomplete="one-time-code"
+        autocorrect="off"
+        class="passcode-field"
+        data-testid="custom-field"
+        id="input-passcode-1"
+        maxlength="1"
+        name="secret-passcode-1"
+        required=""
+        spellcheck="false"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="passcode-input-wrapper"
+  >
+    <div
+      class="input-inner-wrapper"
+    >
+      <input
+        aria-label="Passcode field 3"
+        autocapitalize="off"
+        autocomplete="one-time-code"
+        autocorrect="off"
+        class="passcode-field"
+        data-testid="custom-field"
+        id="input-passcode-2"
+        maxlength="1"
+        name="secret-passcode-2"
+        required=""
+        spellcheck="false"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="passcode-input-wrapper"
+  >
+    <div
+      class="input-inner-wrapper"
+    >
+      <input
+        aria-label="Passcode field 4"
+        autocapitalize="off"
+        autocomplete="one-time-code"
+        autocorrect="off"
+        class="passcode-field"
+        data-testid="custom-field"
+        id="input-passcode-3"
+        maxlength="1"
+        name="secret-passcode-3"
+        required=""
+        spellcheck="false"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

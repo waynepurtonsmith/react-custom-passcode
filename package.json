@@ -1,0 +1,51 @@
+{
+  "name": "react-custom-passcode",
+  "type": "module",
+  "description": "Fully flexible and customisable passcode fields for passcode fields.",
+  "version": "0.0.1",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.cts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waynepurtonsmith/react-custom-passcode.git"
+  },
+  "homepage": "https://github.com/waynepurtonsmith/react-custom-passcode",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsdown ./src/index.tsx --format esm,cjs --dts --target es2015",
+    "lint": "biome lint ./src",
+    "release": "yarn build && changeset publish",
+    "test": "vitest --config ./test/vitest.config.ts"
+  },
+  "author": "Wayne Purton-Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.4",
+    "@changesets/cli": "^2.27.7",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/jsdom": "^27",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.1.0",
+    "jsdom": "^27.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tsdown": "^0.16.0",
+    "typescript": "^5.5.3",
+    "vitest": "^4.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/waynepurtonsmith/react-custom-passcode/issues"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "packageManager": "yarn@4.10.3"
+}
