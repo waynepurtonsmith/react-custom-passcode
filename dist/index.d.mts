@@ -101,6 +101,9 @@ type Field$1 = {
 };
 type PasscodeType = 'text' | 'numeric' | 'alphanumeric';
 type FieldProps = React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
+type FieldPropsWithIndex = FieldProps & {
+  index: number;
+};
 type FieldRenderer = React.ComponentType<FieldProps & {
   index: number;
 }>;
@@ -147,4 +150,4 @@ declare const Passcode: ({
   onUpdate
 }: PasscodeOptions) => react_jsx_runtime0.JSX.Element;
 //#endregion
-export { Field, Passcode };
+export { Field, FieldOptions, FieldProps, FieldPropsWithIndex, FieldRenderer, Passcode, PasscodeOptions, PasscodeProviderOptions, PasscodeType };
