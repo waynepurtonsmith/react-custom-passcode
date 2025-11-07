@@ -51,6 +51,7 @@ describe('Passcode', () => {
           <div className="input-inner-wrapper">
             <input
               {...props}
+              type="tel"
               name={`secret-passcode-${index}`}
               id={`input-passcode-${index}`}
               className="passcode-field"
@@ -64,6 +65,7 @@ describe('Passcode', () => {
         <Passcode
           fields={4}
           renderer={CustomField}
+          type="numeric"
         />,
       )
 

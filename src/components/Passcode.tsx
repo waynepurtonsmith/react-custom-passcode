@@ -19,6 +19,7 @@ type PasscodeField = {
  * @param [autoFocus] - Whether to autofocus the first field on mount
  * @param [autoTab] - Whether to automatically tab to the next field when the current field is filled
  * @param [required] - Whether each field is required
+ * @param [onUpdate] - Invokes when the passcode has changed
  * @return The passcode
  */
 const Passcode = ({

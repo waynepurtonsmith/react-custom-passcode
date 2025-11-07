@@ -167,9 +167,10 @@ exports[`Passcode > rendering > renders with the custom renderer and matches the
         id="input-passcode-0"
         maxlength="1"
         name="secret-passcode-0"
+        pattern="[0-9]"
         required=""
         spellcheck="false"
-        type="text"
+        type="tel"
         value=""
       />
     </div>
@@ -190,9 +191,10 @@ exports[`Passcode > rendering > renders with the custom renderer and matches the
         id="input-passcode-1"
         maxlength="1"
         name="secret-passcode-1"
+        pattern="[0-9]"
         required=""
         spellcheck="false"
-        type="text"
+        type="tel"
         value=""
       />
     </div>
@@ -213,9 +215,10 @@ exports[`Passcode > rendering > renders with the custom renderer and matches the
         id="input-passcode-2"
         maxlength="1"
         name="secret-passcode-2"
+        pattern="[0-9]"
         required=""
         spellcheck="false"
-        type="text"
+        type="tel"
         value=""
       />
     </div>
@@ -236,9 +239,10 @@ exports[`Passcode > rendering > renders with the custom renderer and matches the
         id="input-passcode-3"
         maxlength="1"
         name="secret-passcode-3"
+        pattern="[0-9]"
         required=""
         spellcheck="false"
-        type="text"
+        type="tel"
         value=""
       />
     </div>

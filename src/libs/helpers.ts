@@ -1,4 +1,4 @@
-import type { PasscodeType } from './types'
+import type { PasscodeType } from '../types'
 
 export const hasValidCharacters = (
   value: string,
@@ -8,9 +8,9 @@ export const hasValidCharacters = (
     case 'numeric':
       return /^[0-9]$/.test(value)
     case 'text':
-      return /^[a-zA-Z]$/.test(value)
+      return /^[a-z]$/i.test(value)
     case 'alphanumeric':
-      return /^[a-zA-Z0-9]$/.test(value)
+      return /^[a-z0-9]$/i.test(value)
     default:
       return true
   }
@@ -24,9 +24,9 @@ export const removeInvalidCharacters = (
     case 'numeric':
       return value.replace(/[^0-9]/g, '')
     case 'text':
-      return value.replace(/[^a-zA-Z]/g, '')
+      return value.replace(/[^a-z]/gi, '')
     case 'alphanumeric':
-      return value.replace(/[^a-zA-Z0-9]/g, '')
+      return value.replace(/[^a-z0-9]/gi, '')
     default:
       return value
   }

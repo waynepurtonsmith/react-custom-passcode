@@ -1,7 +1,12 @@
 {
   "name": "react-custom-passcode",
   "type": "module",
-  "description": "Fully flexible and customisable passcode fields for passcode fields.",
+  "description": "Fully flexible and customisable passcode fields for one-time passcodes.",
+  "keywords": [
+    "react",
+    "passcode",
+    "one-time-passcode"
+  ],
   "version": "0.0.1",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -32,7 +37,6 @@
     "@total-typescript/tsconfig": "^1.0.4",
     "@types/jsdom": "^27",
     "@types/react": "^19.2.2",
-    "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^5.1.0",
     "jsdom": "^27.1.0",
     "react": "^19.2.0",

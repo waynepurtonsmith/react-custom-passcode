@@ -99,7 +99,7 @@ type Field$1 = {
   name?: string;
   id?: string;
 };
-type PasscodeType = 'text' | 'numeric' | 'alphanumeric';
+type PasscodeType = 'numeric' | 'alphanumeric';
 type FieldProps = React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
 type FieldPropsWithIndex = FieldProps & {
   index: number;
