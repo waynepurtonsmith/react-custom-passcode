@@ -7,7 +7,7 @@
     "passcode",
     "one-time-passcode"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.cts",
